@@ -1,0 +1,30 @@
+{
+  "name": "cypress-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "prepare" : "npm run build",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TestHaters/cypress-compiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TestHaters/cypress-compiler/issues"
+  },
+  "homepage": "https://github.com/TestHaters/cypress-compiler#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
