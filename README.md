@@ -1,6 +1,6 @@
 # cypress-compiler
 
-The compiler for cypress
+CTFlow compiler for cypress
 
 ## Notes:
 

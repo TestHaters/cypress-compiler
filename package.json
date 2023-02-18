@@ -1,14 +1,14 @@
 {
-  "name": "cypress-compiler",
+  "name": "@testhaters/cypress-compiler",
   "version": "1.0.0",
-  "description": "",
+  "description": "The compiler for cypress",
   "main": "lib/index.js",
   "type": "module",
   "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "prepare" : "npm run build",
+  "prepare": "npm run build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/TestHaters/cypress-compiler.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ghun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TestHaters/cypress-compiler/issues"
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/TestHaters/cypress-compiler#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
